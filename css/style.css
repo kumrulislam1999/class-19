@@ -46,4 +46,8 @@ a {
 
 #header_section>nav ul.Inner_list>li a {}
 
+.active {
+    display: none;
+}
+
 /* Start Header Section CSS Styling Here */

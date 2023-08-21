@@ -1,5 +1,8 @@
-document.getElementById('demo2').style.display = "none"
+document.getElementById('demo1').addEventListener('click', function () {
+    document.getElementById('demo2').classList.toggle('active');
+})
 
-function dropDownList() {
-    document.getElementById('demo2').style.display = 'block'
-}
+
+document.getElementById('demo1').addEventListener('dblclick', function () {
+    document.getElementById('margin_left').style.transform = 'translateX(-55px)';
+})
