@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #921ffd;
+    text-align: center;
+}
+
+/* Start Header Section CSS Styling Here */
+#header_section>nav>ul {
+    display: block;
+    margin: 50px 0 0 50px;
+
+}
+
+#header_section>nav>ul>li a {
+    display: block;
+    width: 200px;
+    padding: 10px 20px;
+    color: coral;
+    background-color: antiquewhite;
+    border: 1px solid grey;
+    border-top: transparent;
+    text-align: left;
+}
+
+
+#header_section>nav ul.Inner_list>li a {}
+
+/* Start Header Section CSS Styling Here */
